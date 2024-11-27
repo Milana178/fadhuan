@@ -1,0 +1,130 @@
+main{
+    margin-top: 91px;
+}
+.cover-container {
+    width:100%;
+    padding-top:72px;
+    background-color: #918580;
+}
+.cover {
+    width: 75%;
+    position: relative;
+    height: 163px;
+    background-color:#b8a69f;
+    font-family: Jura;
+    box-sizing: border-box;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ava {
+    width: 90px;
+    height: 90px;
+    background-color: #65605d;;
+    position: absolute; 
+    top: -40px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    border: 1px solid;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 5px 5px 0 #9F3335;
+}
+.ava#ava1 {
+    left: 212px;
+}
+
+.ava#ava2 {
+    left: 93px;
+}
+.jui{
+    font-size: 40px;
+    font-family: Jura;
+    color: #000000;
+    padding-top: 57px;
+    padding-left: 47px;
+}
+
+
+.about-container{
+    padding-top: 3rem;
+    width:100%;
+    background-color: rgb(197, 192, 202);
+}
+.row {
+    margin: 0 20% 0 20%;
+}
+.person-card {
+    border: 2px solid #000;        
+    border-radius: 8px;            
+    padding: 20px;                 
+    display: grid;                 /* Используем Grid для расположения дочерних элементов */
+    grid-template-columns: 30% 70%; /* Определяем две колонки: 30% и 70% */
+    gap: 10px;                    
+    background-color: #b8a69f;     
+}
+
+
+.person-card-right {
+    grid-template-columns: 70% 30%; /* А тут меняем местами проценты */
+}
+
+.person-card .card-header {
+    display: flex;                  
+    align-items: center;            
+    justify-content: center;         
+}
+
+.person-card .card-header img {
+    max-width: 100%;               
+    height: auto;                   
+}
+
+.card-content {      
+    gap: 10px;
+    font-size: 32px;                 
+}
+
+.project-container {
+    display: grid;    
+    grid-template-columns: 33% 33% 33%; /* Определяем две колонки: 30% и 70% */
+    gap: 7px; 
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.project-card {
+    padding: 1rem; 
+    border: 2px solid #000;        
+    border-radius: 8px;  
+    height: 478px;   
+    display: flex;            
+    flex-direction: column;   
+    background-color: #b8a69f;  
+}
+
+.project-card .card-header {
+    flex: 1;                 
+    display: flex;           
+    justify-content: center; 
+    height:70%;
+}
+
+.project-card .card-header img {
+    max-height: 100%;       
+    max-width: 100%;       
+    object-fit: contain;   
+}
+
+.project-card .card-content {
+    flex: 0 0 auto;         /* Задаем фиксированную высоту или высоту по содержимому */
+    height: 30%;           
+    max-height: 30%;
+    overflow: hidden;       /* Скрываем переполнение, если содержание превышает размер */
+}
+
+.aa {                     
+    font-family: DM  Serif;
+    padding-top: 4%;
+    padding-left: 13%;
+    font-size: 32px;
+}
