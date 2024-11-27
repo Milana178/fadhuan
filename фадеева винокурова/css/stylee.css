@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: DM Serif;
+    src: url(../fonts/DM_Serif_Text/DMSerifText-Regular.ttf);
+  }
+@font-face {
+    font-family: Jura;
+    src: url(../fonts/Jura/Jura.ttf);
+}  
+body {
+    margin: 0;
+    font-family: Jura;
+    background-color:  rgb(197, 192, 202);
+}
+
+.mt {
+    margin-top:3rem;
+}
+
+.img_1{
+    text-align: center;
+}
+
+.content-header {
+    font-size: 32px;
+    font-family: Jura;
+    top: 100px;
+    font-weight: bold;
+}
+
+.content-text {
+    font-size: 25px;
+    font-family: Jura;  
+}
+
+.o_yane_img{
+    width: 200px;
+    height: 200px;
+    margin: 55px 837px;
+}
+
+.mila{
+    margin: -270px 324px;
+}
+
+.o_mile_img{
+    width: 200px;
+    height: 200px;
+    margin: 52px 64px;
+}
+
+.o_mile_img_1{
+    margin: 40px 290px;
+    width: 30px;
+    height: 30px;
+}
+
+
