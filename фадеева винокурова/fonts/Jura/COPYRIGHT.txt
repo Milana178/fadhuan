@@ -1,1 +1,0 @@
-Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
